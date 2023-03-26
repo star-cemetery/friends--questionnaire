@@ -1,0 +1,27 @@
+:root {
+  --dark-color: rgb(30, 42, 66);
+  --medium-color: rgb(123, 139, 175);
+  --highlight-color: rgb(172, 204, 227);
+  --highlight2-color: rgb(154, 192, 171);
+  --support-color: rgb(231, 232, 227);
+}
+@font-face {
+  font-family: Elven Common Speak;
+  src: url("font/Elvencommonspeak-0WXz.ttf") format("truetype");
+}
+body {
+  display: flex;
+  background: url("img/313354.jpg");
+  font-family: Elven Common Speak;
+  font-size: 70px;
+  color: var(--support-color);
+}
+
+h1 {
+  font-family: Elven Common Speak;
+  font-size: 50px;
+  font-weight: 400;
+}
+#rabbit-emoji {
+  max-width: 75px;
+}
