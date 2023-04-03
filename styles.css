@@ -1,39 +1,52 @@
 :root {
   --dark-color: rgb(30, 42, 66);
   --medium-color: rgb(123, 139, 175);
-  --highlight-color: rgb(172, 204, 227);
-  --highlight2-color: rgb(154, 192, 171);
+  --highlight-color: rgb(197, 218, 233);
+  --highlight2-color: rgb(184, 218, 199);
   --support-color: rgb(231, 232, 227);
-  --bs-border-color: rgb(154, 192, 171);
+  --bs-border-color: rgb(181, 212, 195);
   --bs-form-control-bg: rgb(231, 232, 227);
+  --font-family: Aniron;
 }
 @font-face {
-  font-family: Elven Common Speak;
-  src: url("font/Elvencommonspeak-0WXz.ttf") format("truetype");
+  font-family: Aniron;
+  src: url("font/Aniron-7BaP.ttf") format("truetype");
 }
 body {
   background: url("img/313354.jpg");
-  font-family: Elven Common Speak;
+  font-family: Aniron;
   color: var(--support-color);
-  font-size: 40px;
+  font-size: 12px;
 }
 h1 {
-  font-family: Elven Common Speak;
-  font-size: 50px;
+  font-family: Aniron;
+  font-size: 17px;
+  color: var(--highlight-color);
+}
+audio {
+  width: 270px;
+  height: 40px;
+  position: relative;
+  left: 0;
+  margin-top: 15px;
+}
+h3 {
+  font-size: 16px;
+  color: var(--highlight2-color);
 }
 label {
   display: contents;
 }
 input[type="text"] {
-  font-size: 48px;
+  line-height: 1.5;
 }
 textarea,
 .form-control {
-  font-size: 30px;
+  font-size: 12px;
 }
 .form-control {
   line-height: 1;
-  border-width: 3px;
+  border-width: 2px;
 }
 #rabbit-emoji {
   max-width: 50px;
